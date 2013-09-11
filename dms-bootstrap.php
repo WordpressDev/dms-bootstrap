@@ -20,6 +20,7 @@ class DMS_Bootstrap {
 	}
 	
 	function add_shortcodes() {
+		require_once( 'libs/class.types.php' );
 		require_once( 'libs/shortcodes.php' );
 		new PLProShortcodes;
 	}
